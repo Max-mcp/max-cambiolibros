@@ -1,0 +1,219 @@
+@import url(style.css);
+
+
+body{
+    background-image: linear-gradient(
+        rgba(242, 140, 40, 0.20),
+        rgba(255, 180, 92, 0.20)
+    );
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    width: 1142px;
+    min-height: 700px;
+
+    display: flex;
+
+    background-color: white;
+
+    box-shadow: 0 0 25px rgba(201, 104, 22, 0.25);
+
+    border-radius: 25px;
+}
+
+
+/* IMAGEM */
+
+.sessao-imagem{
+    width: 510px;
+    min-height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sessao-imagem img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 25px 0 0 25px;
+}
+
+
+/* ÁREA DE CADASTRO */
+
+.sessao-cadastro{
+    width: 620px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+}
+
+
+/* TÍTULO */
+
+.area-titulo{
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.area-titulo h1{
+    color: var(--laranja-principal);
+
+    font-size: 36px;
+    font-weight: 600;
+
+    padding-bottom: 5px;
+}
+
+
+.area-titulo h1 span{
+    color: var(--laranja-escuro);
+
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+.area-titulo h2{
+    font-size: 22px;
+
+    color: var(--azul-escuro);
+
+    font-weight: 400;
+}
+
+
+/* FORMULÁRIO */
+
+#form-cadastro{
+    display: flex;
+    flex-direction: column;
+
+    width: 434px;
+
+    gap: 5px;
+}
+
+
+#form-cadastro label{
+    color: var(--laranja-escuro);
+
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#form-cadastro input{
+    height: 40px;
+
+    padding: 5px 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 15px;
+
+    margin-bottom: 10px;
+}
+
+
+/* TERMOS */
+
+.termos{
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 5px;
+}
+
+
+.termos input{
+    width: auto;
+    height: auto;
+
+    margin: 0;
+}
+
+
+.termos label{
+    font-size: 14px;
+
+    color: var(--texto-suave);
+}
+
+
+/* BOTÃO */
+
+#btn-cadastrar{
+    margin-top: 15px;
+
+    padding: 13px;
+
+    background-color: var(--laranja-principal);
+
+    border: none;
+
+    border-radius: 25px;
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+#btn-cadastrar:hover{
+    background-color: var(--laranja-escuro);
+}
+
+
+/* TEXTO FINAL */
+
+.texto-conta{
+    margin-top: 20px;
+
+    text-align: center;
+
+    color: var(--texto-suave);
+
+    font-size: 15px;
+}
+
+#texto-login{
+    margin-top: 20px;
+
+    text-align: center;
+
+    color: var(--texto-suave);
+
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--laranja-escuro);
+    
+}
+
+#texto-login:hover{
+    transform: scale(1.08);
+}
