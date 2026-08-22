@@ -1,0 +1,53 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    margin: 20px auto;
+    width: 75vw;
+    text-align: center;
+}
+h2{
+    background-color: rgb(24, 145, 125);
+    color: rgb(15, 37, 39);
+    border-radius: 14px;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+input{
+    margin-bottom: 10px;
+}
+#caixa{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px auto
+}
+.btn{
+    padding: 20px;
+    margin-right: 10px;
+}
+.area_add_sub{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    font-size: 40px;
+}
+.area_add_sub button{
+    padding: 12px;
+    background-color: rgb(67, 67, 255);
+    color: aliceblue;
+    border-radius: 600px;
+}
+.area_add_sub button:hover{
+    background-color: rgb(2, 0, 107);
+
+}
