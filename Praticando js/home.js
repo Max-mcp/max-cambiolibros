@@ -43,15 +43,21 @@ document.getElementById("btn_mais").addEventListener('click',
     });
 //Adicionar Livro
 const nomelivro = document.getElementById("nome_livro");
-const listaLivros = dcument.getElementById("lista_livros")
+const listaLivros = document.getElementById("lista_livros")
 
 document.getElementById("adicionar_livro").addEventListener('click', () => {
 
 const novolivro = document. createElement("li");
 novolivro.textContent = nomelivro. value;
-listaLivros.appendChild(novolivro);
+    const botaoApagar = document.createElement("button");
+    botaoApagar.textContent = "Apagar";
 
-nomelivro
+    botaoApagar.addEventListener("click", () => {
+        novolivro.remove();
+    });
 
+    novolivro.appendChild(botaoApagar);
+    listaLivros.appendChild(novolivro);
 
-})
+    nomelivro.value = "";
+});

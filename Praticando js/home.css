@@ -51,3 +51,15 @@ input{
     background-color: rgb(2, 0, 107);
 
 }
+ul{
+    width: 400px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    background-color: #8bcbd681;
+    padding: 0 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
