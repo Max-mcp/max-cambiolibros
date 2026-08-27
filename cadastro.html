@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script defer src="cadastro.js"></script>
     <link rel="stylesheet" href="cadastro.css">
 
     <title>Cadastro | CambioLibros</title>
@@ -52,6 +52,7 @@
                     type="text"
                     id="usuario"
                     placeholder="Escolha um nome de usuário"
+                    required
                 >
 
                 <label for="email">
@@ -61,7 +62,7 @@
                 <input
                     type="email"
                     id="email"
-                    placeholder="Informe seu email"
+                    placeholder="Informe seu email"required
                 >
 
                 <label for="senha">
@@ -72,6 +73,7 @@
                     type="password"
                     id="senha"
                     placeholder="Crie uma senha"
+                    required
                 >
 
                 <label for="confirmar-senha">
@@ -82,6 +84,7 @@
                     type="password"
                     id="confirmar-senha"
                     placeholder="Confirme sua senha"
+                    required
                 >
 
                 <div class="termos">
@@ -96,7 +99,8 @@
                     </label>
 
                 </div>
-
+                <label id="Erro"></label>
+                
                 <button id="btn-cadastrar">
                     Criar conta
                 </button>
